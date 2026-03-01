@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 💰 Expense Tracker Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Expense Tracker Web Application built using React.js and Chart.js.  
+This application helps users manage income and expenses with real-time balance calculation and dynamic data visualization.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🔗 https://expense-tracker-cyan-three-19.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 GitHub Repository
 
-### `npm test`
+🔗 https://github.com/AbubakarStackDev/expense-tracker
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📖 Project Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Expense Tracker Dashboard allows users to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Add income and expense transactions
+- Automatically calculate total balance
+- View income vs expense distribution using a dynamic Pie Chart
+- Delete transactions
+- Persist data using browser LocalStorage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application is fully responsive and designed with a clean and minimal UI.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✨ Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ✅ Add Income & Expense Transactions
+- ✅ Real-Time Balance Calculation
+- ✅ Dynamic Pie Chart Visualization (Chart.js)
+- ✅ Delete Transactions
+- ✅ LocalStorage Data Persistence
+- ✅ Responsive UI Design
+- ✅ Live Deployment using Vercel
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+**Frontend**
+- React.js
+- React Hooks (useState, useEffect)
+- Chart.js
+- CSS3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Deployment**
+- Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository:
 
-### Analyzing the Bundle Size
+git clone https://github.com/AbubakarStackDev/expense-tracker.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navigate to the project directory:
 
-### Making a Progressive Web App
+cd expense-tracker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Run the application:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Build for production:
 
-### `npm run build` fails to minify
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📊 How It Works
+
+- Positive values are treated as Income.
+- Negative values are treated as Expenses.
+- Balance is automatically calculated as:
+
+Balance = Total Income + Total Expenses
+
+- The Pie Chart updates dynamically whenever a new transaction is added or deleted.
+- All transaction data is stored in the browser using LocalStorage.
+
+---
+
+## 🔮 Future Improvements
+
+- Edit existing transactions
+- Dark Mode
+- Category-based filtering
+- Monthly expense reports
+- Backend integration (Node.js + MongoDB)
+- User authentication system
+
+---
+
+## 👨‍💻 Author
+
+Mohammad Abubakar 
+
+
+GitHub: https://github.com/AbubakarStackDev  
+LinkedIn: https://www.linkedin.com/in/abubakar-mohammad27/
+
+---
+
+⭐ If you found this project helpful, feel free to star the repository!

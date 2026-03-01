@@ -112,8 +112,7 @@ Balance = Total Income + Total Expenses
 
 ## 👨‍💻 Author
 
-Mohammad Abubakar  
-CSE Student | React Developer  
+Mohammad Abubakar   
 
 GitHub: https://github.com/AbubakarStackDev  
 LinkedIn: https://www.linkedin.com/in/abubakar-mohammad27/

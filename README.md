@@ -5,6 +5,12 @@ This application helps users manage income and expenses with real-time balance c
 
 ---
 
+## 📸 Project Screenshot
+
+![Expense Tracker Screenshot](./screenshot.png)
+
+---
+
 ## 🚀 Live Demo
 
 🔗 https://expense-tracker-cyan-three-19.vercel.app/
@@ -106,8 +112,8 @@ Balance = Total Income + Total Expenses
 
 ## 👨‍💻 Author
 
-Mohammad Abubakar 
-
+Mohammad Abubakar  
+CSE Student | React Developer  
 
 GitHub: https://github.com/AbubakarStackDev  
 LinkedIn: https://www.linkedin.com/in/abubakar-mohammad27/
